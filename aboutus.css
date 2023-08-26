@@ -1,0 +1,183 @@
+#body{
+    margin: 0;
+}
+
+
+    #div0{
+
+        position: relative;
+        font-family:system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+     #bu{
+
+         font-family: calluna;
+        position:relative;
+        width:10%;
+        height:50px;
+        bottom: 0%;
+        left: 44%;
+        border-radius: 5px;
+    background-color: white;
+      
+     }
+     #bu:hover{
+        color: white;
+        background-color: black;
+     }
+      #plong{
+        display: block;
+        text-align: center;
+        width: 20%;
+        position: relative;
+        left: 40%;
+        font-family: calluna;
+      }
+
+      .header {
+        
+        overflow: hidden;
+        background-color: rgba(0,0,0,.0);
+        padding: 105px 200px;
+        position: sticky;
+      }
+      
+      .header a {
+        
+        float: left;
+        color: rgb(85, 82, 82);
+        text-align: center;
+        padding: 7px;
+        text-decoration: none;
+        font-size: 14px; 
+        line-height: 25px;
+        border-radius: 4px;
+        font-family: calluna ;
+        font-weight: 600;
+        font-style: normal;        
+      }
+      
+      .header a.logo {
+        display: inline-block;
+        position: absolute;
+        left: 5%;
+        top: 9%;
+      }
+      
+      
+      
+      .header-right {
+        float: right;
+      }
+      
+      @media screen and (max-width: 500px) {
+        .header a {
+          float: none;
+          display: block;
+          text-align: left;
+        }
+        
+        .header-right {
+          float: none;
+        }
+      }
+
+      .parent{
+        position: relative;
+        color: white;
+        background-image:url("photos/storybackground.jpg");
+        height: 100vh;
+    width: 100%;
+      }
+
+      .story{
+        font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:5vw ;
+    line-height: 1.4em;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+        position: absolute;
+        top: 50%;
+        left:35%
+        
+      }
+      .logo{
+        position: absolute;
+                left: 5%;
+        top: 5%;
+      }
+
+      footer{
+        display: block;
+        padding: 6vw;
+        width: 100%;
+        box-sizing: border-box;
+        position: relative;
+        z-index: 100;
+        overflow: hidden;
+    }
+    
+    .leftfooter{
+        float: left;
+        display: block;
+        letter-spacing: .03em;
+        width: 70%;
+    }
+    
+    .rightfooter{
+        
+    }
+    
+    .contentoffooter{
+        width: 100%;
+        display: block;
+        letter-spacing: .03em;
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .contact{
+        width: 50%;
+        float: left;
+        display: block;
+        margin-left:10px ;
+        padding-left: 17px;
+        padding-right: 17px;
+        clear: none;
+        position: relative;
+        height: auto;
+    }
+    .pcontact{
+        text-align: center;
+       line-height: 30px;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        text-size-adjust: 20;
+    }
+    .nameofwebsite{
+        text-align: center;
+    }
+    img{
+        width: 24px;
+        height: 24px;
+    }
+    
+    .socialaccounts{
+       margin: 0 auto;
+    }
+    .designedby{
+        padding-bottom: 17px;
+        padding-left: 17px;
+        padding-right: 17px;
+        padding-top: 17px;
+        position: relative;
+        height: auto;
+    
+    }
+    .designed{
+        text-align: center;
+        word-wrap: break-word;
+        padding-left: 50%;
+    }

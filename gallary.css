@@ -1,0 +1,138 @@
+.header {
+    color: rgb(87, 84, 84);
+    padding: 500px 0px; 
+  }
+  
+  .header a {
+    float: left;
+    color: rgb(4, 4, 4);
+    text-align: center;
+    padding: 7px;
+    text-decoration: none;
+    font-size: 14px; 
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: calluna ;
+    font-weight: 600;
+    font-style: normal; 
+    right: 80%;  
+    position: relative;
+  }
+  
+  .header a.logo {
+    display: inline-block;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    
+  }
+  
+  .header-right {
+    float: right;
+     position: absolute; 
+    z-index: 1;
+    padding-left: 60%;
+    padding-top: 5%; 
+   
+   
+  }
+  
+  
+
+.page-title{
+    position: absolute;
+    top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.lphoto{
+    width: 49%;
+    padding-bottom: 20px;
+    float: left;
+    padding-right: 20px;
+}
+.rphoto{
+    width: 49%;
+    padding-bottom: 20px;
+    float: left;
+}
+
+
+
+
+/* footer style */
+footer{
+    display: block;
+    padding: 6vw;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.leftfooter{
+    float: left;
+    display: block;
+    letter-spacing: .03em;
+    width: 70%;
+}
+
+.rightfooter{
+    
+}
+
+.contentoffooter{
+    width: 100%;
+    display: block;
+    letter-spacing: .03em;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contact{
+    width: 50%;
+    float: left;
+    display: block;
+    margin-left:10px ;
+    padding-left: 17px;
+    padding-right: 17px;
+    clear: none;
+    position: relative;
+    height: auto;
+}
+.pcontact{
+    text-align: center;
+   line-height: 30px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    text-size-adjust: 20;
+}
+.nameofwebsite{
+    text-align: center;
+}
+.icon{
+    width: 24px;
+    height: 24px;
+}
+
+.socialaccounts{
+   margin: 0 auto;
+}
+.designedby{
+    padding-bottom: 17px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 17px;
+    position: relative;
+    height: auto;
+
+}
+.designed{
+    text-align: center;
+    word-wrap: break-word;
+    padding-left: 50%;
+}
